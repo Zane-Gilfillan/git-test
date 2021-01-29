@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    max-width: 500px;
+    margin-left: 10rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+/* Boxes */
+
+.grey-box-one {
+    position: fixed;
+    top: 0px;
+    height: 200px;
+    width: 300px;
+    background: #d0dad2;
+    text-align: center;
+    justify-content: center;
+}
+
+.grey-box-one p {
+    position: relative;
+    top: 90px;
+    align-self: center;
+}
+
+.container-two {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.grey-box-two {
+    position: relative;
+    height: 300px;
+    width: 1000px;
+    background: #959595;
+    margin: auto;
+}
+
+.container-three {
+    position: relative;
+}
+
+.grey-box-three {
+    position: absolute;
+    height: 100px;
+    width: 450px;
+    background-color: rgba(117, 117, 117);
+    z-index: 100;
+    left: 60%;
+    bottom: 10%;
+}
+
+
+
+/* Walls of Text */
+
+.text-wall-one,
+.text-wall-two {
+    max-width: 1000px;
+    margin-left: 26rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
