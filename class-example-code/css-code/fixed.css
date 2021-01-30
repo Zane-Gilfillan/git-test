@@ -12,33 +12,36 @@
     position: fixed;
     width: 150px;
     height: 150px;
-    background: #2db34a;
-    border: 2px solid black;
+    /* background: #2db34a; */
+    /* border: 2px solid black; */
   }
   
   /* Box rules: percentages define anchors (i.e. position of each box relative to browser window) */
   
   .box-1 {
+    background: darkseagreen;
     top: 6%;
     left: 2%;
   }
   
   .box-2 {
+    background: coral;
     top: 0;
-    right: -40px;
+    right: 40px;
   }
   
   .box-3 {
-    right: 20px;
-    bottom: -10px;
+    background: burlywood;
+    right: 200px;
+    bottom: 10px;
   }
   
   .box-4 {
-    bottom: 0;
+    background: teal;
+    bottom: 500px;
+    left: 800px;
   }
   
-
-
   .browser-push {
     height: 100vh;
   }
