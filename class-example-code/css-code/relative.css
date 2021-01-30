@@ -3,7 +3,12 @@
  * (i.e. below or left of where the element would normally be)
  **/
 
+ /* I threw a ```display: flex;``` in the .box-set just to align all of them in a row */
+
  .box-set {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
     height: 400px;
     background: darkgray;
@@ -14,20 +19,32 @@
     position: relative;
     width: 150px;
     height: 150px;
-    background: #2db34a;
+    /* background: #2db34a; */
     border: 2px solid black;
   }
   
   .box-1 {
-    top: 20px;
+    text-align: center;  
+    top: 100px;
+    background: coral;
   }
   
   .box-2 {
     left: 40px;
+    text-align: center;
+    background: cornflowerblue;
   }
   
   .box-3 {
     right: 20px;
     bottom: -10px;
+    text-align: center;
+    background: darkgoldenrod;
   }
   
+  .box-4 {
+      left: 200px;
+      bottom: 35px;
+      text-align: center;
+      background: darkseagreen;
+  }

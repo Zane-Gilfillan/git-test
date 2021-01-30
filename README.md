@@ -18,3 +18,5 @@ An element with ```position: absolute;``` is positioned relative to the nearest 
 
 However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
 
+
+I added an extra div element named ```browser-push``` in order for the ```position: fixed;``` activities to be a little more clear.
